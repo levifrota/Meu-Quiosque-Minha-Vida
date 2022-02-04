@@ -1,0 +1,342 @@
+:root {
+  --black: #130f40;
+  --box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+.header {
+  width: 100vw;
+  height: 80%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 5%;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 0.5rem;
+  box-shadow: var(--box-shadow);
+  color:black;
+}
+
+.header .navbar{
+  margin-left: 50%;
+}
+
+section {
+  padding: 1rem;
+}
+
+.logo-enext-nav {
+  width: 5vw;
+}
+
+.bttn {
+  width: auto;
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.8rem 3rem;
+  font-size: 1.7rem;
+  border-radius: 0.5rem;
+  border: 0.2rem solid var(--black);
+  color: var(--black);
+  cursor: pointer;
+  background: #eee;
+}
+
+.bttn.checkout {
+  background: #eee;
+  color: var(--black);
+  display: flex;
+  margin-right: 2rem;
+}
+
+.bttn.checkout:hover {
+  background: #e42222;
+  transition: 0.3s linear;
+  color: #fff;
+}
+
+.header .navbar a {
+  margin: 0 1rem;
+  color: rgb(39, 39, 39);
+  text-decoration: none;
+}
+
+.header .navbar a:hover {
+  color: #B5A5E3;
+  transition: all 0.3s ease;
+  border-bottom: 1px solid white;
+}
+
+.header .icons i {
+  width: 1.5rem;
+  line-height: 2rem;
+  color: #B5A5E3;
+  font-size: 1.5rem;
+  margin-left: 0.3rem;
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+}
+
+.header .icons i:hover {
+  color: #000;
+  transition: all 0.3s ease;
+}
+
+#menu-btn {
+  display: none;
+}
+
+#login-btn {
+  padding-right: 2.5rem;
+}
+
+.header .search-form {
+  position: absolute;
+  top: 110%;
+  right: -110%;
+  width: 50rem;
+  height: 5rem;
+  background: #dfdfdf;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  color: var(--black);
+}
+
+.header .search-form.active {
+  box-shadow: var(--box-shadow);
+  transition: 0.4s linear;
+  background-color: #000;
+  right: 2rem;
+  transition: 0.4s linear;
+}
+
+.header .search-form input {
+  height: 100%;
+  width: 100%;
+  background: none;
+  text-transform: none;
+  font-size: 1.6rem;
+  color: #eee;
+  padding: 0 1.5rem;
+}
+
+.header .search-form label {
+  font-size: 2.2rem;
+  padding-right: 1.5rem;
+  padding-left: 0.5rem;
+  color: #eee;
+  cursor: pointer;
+}
+
+.header .search-form label:hover {
+  color: #e42222;
+  transition: 0.3s linear;
+}
+
+.header .shopping-cart {
+  position: absolute;
+  top: 110%;
+  right: -110%;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+  width: 20rem;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header .shopping-cart.active {
+  transition: 0.4s linear;
+  background-color: #000;
+  right: 2rem;
+  color: #eee;
+}
+
+.header .shopping-cart .box {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+  margin: 1rem 0;
+  color: #eee;
+}
+
+.header .shopping-cart .box img {
+  height: 10rem;
+}
+
+.header .shopping-cart .box .fa-trash:hover {
+  color: var(--orange);
+  transition: 0.5s linear;
+}
+
+.header .shopping-cart .box .content h3 {
+  color: #eee;
+  font-size: 1.7rem;
+  padding-bottom: 1rem;
+}
+
+.header .shopping-cart .box .content span {
+  color: #eee;
+  font-size: 1.6rem;
+}
+
+.header .shopping-cart .box .content .quantity {
+  padding-left: 1rem;
+}
+
+.header .shopping-cart .total {
+  font-size: 2.5rem;
+  padding: 1rem 0;
+  text-align: center;
+  color: #eee;
+}
+
+.header .shopping-cart .btn {
+  display: block;
+  text-align: center;
+}
+
+.header .login-form {
+  position: absolute;
+  top: 110%;
+  right: -110%;
+  width: 25rem;
+  box-shadow: var(--box-shadow);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  background: #000;
+  text-align: center;
+}
+
+.header .login-form.active {
+  right: 2rem;
+  transition: 0.4s linear;
+}
+
+.header .login-form h3 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #eee;
+}
+
+.header .login-form .box {
+  width: 100%;
+  margin: 0.7rem 0;
+  background: #eee;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  font-size: 1.6rem;
+  color: var(--black);
+  text-transform: none;
+}
+
+.header .login-form p {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+  color: #eee;
+  display: flex;
+  flex-direction: column;
+}
+
+.header .login-form p a {
+  color: #e44a4a;
+  text-decoration: underline;
+}
+@media (max-width: 511px) {
+  footer,
+  .des {
+    font-size: medium;
+  }
+  .header .login-form {
+    width: 25rem;
+  }
+  .header .shopping-cart {
+    width: 18rem;
+    right: -150%;
+    display: flex;
+    flex-direction: column;
+  }
+  #login-btn {
+    padding-right: 0.75rem;
+  }
+}
+
+@media (max-width: 1220px) {
+  #menu-btn {
+    display: inline-block;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header .search-form {
+    width: 90%;
+  }
+
+  .header .navbar {
+    position: absolute;
+    top: 110%;
+    right: -110%;
+    width: auto;
+    box-shadow: var(--box-shadow);
+    border-radius: 0.5rem;
+    background-color: #000000;
+  }
+
+  .header .navbar.active {
+    right: 2rem;
+    transition: 0.4s linear;
+    background-color: #000;
+  }
+
+  .header .navbar a {
+    font-size: x-large;
+    margin: 2rem 2.5rem;
+    display: block;
+  }
+  .button {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 985px) {
+  .logo-enext-nav {
+    width: 100px;
+  }
+}
+@media (max-width: 400px) {
+  .header .navbar {
+    right: -150%;
+    width: 18rem;
+  }
+
+  .header .login-form.active,
+  .header .navbar.active,
+  .header .search-form.active,
+  .header .shopping-cart.active {
+    right: 0.5rem;
+  }
+  .header .icons i {
+    margin-left: auto;
+  }
+}
+@media (max-width: 430px) {
+  .header .login-form,
+  .header .shopping-cart {
+    width: 18rem;
+    right: -150%;
+    display: flex;
+    flex-direction: column;
+  }
+}
