@@ -1,0 +1,71 @@
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 150px;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+}
+
+.content h1 {
+    font-weight: 800;
+    font-family: "Rowdies";
+    margin-bottom: 0.5em;
+}
+
+.form-cadastro {
+    color: #6e6e6e;
+    display: flex;
+    width: 25rem;
+    padding: 2rem;
+    background: #f5f5f5ab;
+    border-radius: 20px;
+}
+
+.form-cadastro .login-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-form h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
+
+.login-form .box {
+    width: 100%;
+    margin: 0.7rem 0;
+    background: #ffffff;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-size: 1.6rem;
+    color: #B5A5E3;
+    text-transform: none;
+}
+
+.bttn-cadastro {
+    width: 20rem;
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.8rem 3rem;
+    font-size: 1.7rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid var(--black);
+    color: var(--black);
+    cursor: pointer;
+    background: #eee;
+}
+
+.bttn-cadastro:hover {
+    background: #f5f5f5;
+    font-weight: 550;
+    transition: 0.3s;
+}
