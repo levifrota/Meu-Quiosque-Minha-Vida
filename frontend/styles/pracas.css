@@ -1,0 +1,39 @@
+ article {
+     background-color: white;
+     padding: 6%;
+     font-family: "Roboto", sans-serif;
+     height: 100vh;
+     color: #9E9E9E;
+ }
+ 
+ article .title {
+     width: 50%;
+     font-weight: bold;
+     font-size: 22px;
+     text-shadow: 2px 2px 2px #7272721c;
+     border: solid 2px;
+     border-width: 0 0 1px 0;
+     border-color: #9E9E9E;
+     padding-bottom: 2%;
+ }
+ 
+ .lista {
+     display: flex;
+     justify-content: start;
+     align-items: flex-start;
+     width: 40vw;
+     height: 40vh;
+ }
+ 
+ .lista ul {
+     margin-top: 4%;
+ }
+ 
+ .lista ul li {
+     width: 20vw;
+     margin: 1% 0 0 6%;
+ }
+ 
+ aside {
+     background-image: url("..src/");
+ }
