@@ -17,6 +17,14 @@
   padding-left: 0.5rem;
   box-shadow: var(--box-shadow);
   color: black;
+  background-image: linear-gradient(
+    to left,
+    #74ebd5a9,
+    #52dfefa9,
+    #62cffda9,
+    #8ebbf9a9,
+    #b5a5e3a9
+  );
 }
 
 .header .navbar {
