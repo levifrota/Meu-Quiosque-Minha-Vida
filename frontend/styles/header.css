@@ -54,6 +54,7 @@ section {
   margin: 0 1rem;
   color: rgb(39, 39, 39);
   text-decoration: none;
+  font-size: 1.3rem;
 }
 
 .header .navbar a:hover {
