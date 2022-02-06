@@ -16,10 +16,10 @@
   justify-content: space-around;
   padding-left: 0.5rem;
   box-shadow: var(--box-shadow);
-  color:black;
+  color: black;
 }
 
-.header .navbar{
+.header .navbar {
   margin-left: 50%;
 }
 
@@ -44,9 +44,9 @@ section {
   background: #eee;
 }
 
-.bttn:hover{
+.bttn:hover {
   background: #9e9e9e;
-  color:#eee;
+  color: #eee;
   transition: 0.3s;
 }
 
@@ -57,7 +57,7 @@ section {
 }
 
 .header .navbar a:hover {
-  color: #9e9e9e;
+  color: #7e7e7e;
   transition: all 0.3s ease;
   border-bottom: 1px solid black;
 }
@@ -65,7 +65,7 @@ section {
 .header .icons i {
   width: 1.5rem;
   line-height: 2rem;
-  color: #B5A5E3;
+  color: #b5a5e3;
   font-size: 1.5rem;
   margin-left: 0.3rem;
   cursor: pointer;
@@ -115,7 +115,7 @@ section {
   border-radius: 0.5rem;
   padding: 1rem;
   font-size: 1.6rem;
-  color: #B5A5E3;
+  color: #b5a5e3;
   text-transform: none;
 }
 

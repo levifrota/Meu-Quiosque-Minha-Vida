@@ -5,6 +5,11 @@ document.querySelector("#login-btn").onclick = () => {
   navbar.classList.remove("active");
 };
 
+document.querySelector("#bttn-register").onclick = () => {
+  loginForm.classList.toggle("active");
+  navbar.classList.remove("active");
+};
+
 let navbar = document.querySelector(".navbar");
 
 document.querySelector("#menu-btn").onclick = () => {
