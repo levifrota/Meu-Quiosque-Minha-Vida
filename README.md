@@ -60,6 +60,7 @@ As ferramentas usadas para a construção do projeto foram as seguintes:
 - [MySQL](https://www.mysql.com/)
 - [JavaScript](https://www.javascript.com/)
 - [Overleaf](https://pt.overleaf.com/)
+- [Adobe Photoshop](https://www.adobe.com/br/products/photoshop.html/)
 - [HTML]
 - [CSS]
 
