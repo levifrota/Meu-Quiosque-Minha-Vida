@@ -39,7 +39,7 @@ Foi usado também a ferramenta Kanban, que ajudou na organização do trabalho, 
 
 
 ## 🖥️ Protótipo
-O protótipo implementado permite o cadasto de candidatos interessados em adquirir uma vaga em uma praça de Sobral (CE). Caso selecionado, o indivíduo poderá administrar um quiosque na praça que o sistema verificar viabilidade a partir da conformidade entre disponibilidade e interesse do solicitante. 
+O protótipo implementado permite o cadasto de candidatos interessados em adquirir uma vaga em uma praça de Sobral (CE). Caso selecionado, o indivíduo poderá administrar um quiosque na praça que o sistema achar maior conformidade entre o interesse do solicitante e a disponibilidade da praça. 
 
 A primeira página solicita informações básicas para a avaliação, relacionadas a identificação e localização do candidato. 
 
