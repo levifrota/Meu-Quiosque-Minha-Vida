@@ -59,6 +59,7 @@ As ferramentas usadas para a construção do projeto foram as seguintes:
 - [Figma](https://figma.com/)
 - [MySQL](https://www.mysql.com/)
 - [JavaScript](https://www.javascript.com/)
+- [Overleaf](https://pt.overleaf.com/)
 - [HTML]
 - [CSS]
 
