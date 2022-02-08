@@ -165,6 +165,7 @@ input {
     width: 100%;
 }
 
+#input,
 #continuar,
 #finalizar,
 #pg-inicial {
@@ -185,7 +186,7 @@ input {
 #pg-inicial {
     margin-bottom: 20px;
 }
-
+#input:hover,
 #continuar:hover,
 #finalizar:hover,
 #pg-inicial:hover {

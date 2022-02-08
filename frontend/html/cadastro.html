@@ -3,8 +3,12 @@
 
 <head>
     <meta charset="utf-8">
-    <link href="estilo.css" rel="stylesheet" type="text/css" />
-    <script type="text/javascript" src="function-simple.js"></script>
+    <link href="../styles/cadastro.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../js/function-simple.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 
 </head>
 
@@ -19,52 +23,52 @@
             <form class="form1">
                 <div class="campo-dados" id="campo-nome">
                     <label for="nome">Nome Completo</label>
-                    <input type="text" id="nome" required="required" name="nome" />
+                    <input type="text" id="nome" required  name="nome" />
                 </div>
 
                 <div class="campo-dados" id="campo-nascimento">
                     <label for="nascimento">Data de nascimento</label>
-                    <input type="date" id="date" required="required" name="date" />
+                    <input type="date" id="date" required  name="date" />
                 </div>
 
                 <div class="campo-dados" id="campo-email">
-                    <label for="nascimento">Endereço de email</label>
-                    <input type="email" id="email" required="required" name="email" />
+                    <label for="email">Endereço de email</label>
+                    <input type="email" id="email" required  name="email" />
                 </div>
 
                 <div class="campo-dados" id="campo-telefone">
-                    <label for="nascimento">Telefone</label>
-                    <input type="tel" id="tel" required="required" name="tel" placeholder="(00) 00000 - 0000" />
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="tel" required  name="tel" placeholder="(00) 00000 - 0000" onkeypress="$(this).mask('(00) 0000-00009')"/>
                 </div>
 
                 <div class="campo-dados" id="campo-cep">
-                    <label for="nascimento">CEP</label>
-                    <input type="text" id="cep" required="required" name="cep" placeholder="00000 - 000" />
+                    <label for="cep">CEP</label>
+                    <input type="text" id="cep" required  name="cep" placeholder="00000 - 000" onkeypress="$(this).mask('00.000-000')"/>
                 </div>
 
                 <div class="campo-dados" id="campo-rua">
-                    <label for="nascimento">Rua</label>
-                    <input type="text" id="rua" required="required" name="rua" />
+                    <label for="rua">Rua</label>
+                    <input type="text" id="rua" required  name="rua" />
                 </div>
 
                 <div class="campo-dados" id="campo-bairro">
-                    <label for="nascimento">Bairro</label>
-                    <input type="text" id="bairro" required="required" name="bairro" />
+                    <label for="bairro">Bairro</label>
+                    <input type="text" id="bairro" required  name="bairro" />
                 </div>
 
                 <div class="campo-dados" id="campo-numero">
-                    <label for="nascimento">Número</label>
-                    <input type="text" id="estado" required="required" name="numero" />
+                    <label for="numero">Número</label>
+                    <input type="number" id="estado" required  name="numero" />
                 </div>
 
                 <div class="campo-dados" id="campo-cidade">
-                    <label for="nascimento">Cidade</label>
-                    <input type="text" id="cidade" required="required" name="cidade" />
+                    <label for="cidade">Cidade</label>
+                    <input type="text" id="cidade" required  name="cidade" />
                 </div>
 
                 <div class="campo-dados" id="campo-complemento">
-                    <label for="nascimento">Complemento</label>
-                    <input type="text" id="complemento" required="required" name="complemento" />
+                    <label for="complemento">Complemento</label>
+                    <input type="text" id="complemento" required  name="complemento" />
                 </div>
 
                 <div class="termos">
@@ -115,6 +119,9 @@
                 <div class="button">
                     <a id="continuar" href="#cadastro3" onclick="etapaTres()">Continuar</a>
                 </div>
+                <div class="button">
+                    <a id="continuar" href="#cadastro1" onclick="etapaUm()">Voltar</a>
+                </div>
             </form>
         </div>
     </article>
@@ -160,6 +167,9 @@
                 <div class="button">
                     <a id="continuar" href="#cadastro4" onclick="etapaQuatro()">Continuar</a>
                 </div>
+                <div class="button">
+                    <a id="continuar" href="#cadastro2" onclick="etapaDois()">Voltar</a>
+                </div>
             </form>
         </div>
     </article>
@@ -185,16 +195,20 @@
 
                 <div class="campo-dados" id="campo-segunda-praca">
                     <label for="segunda-praca">Especifique qual outra praça</label>
-                    <input type="text" id="segunda-praca" required="required" name="segunda-praca" disabled/>
+                    <input type="text" id="segunda-praca" required  name="segunda-praca" disabled/>
                 </div>
 
                 <div class="campo-dados" id="campo-opniao">
-                    <label for="opniao">Sua opnião é muito importante para nós, que tal deixar algum sugestão ou algo do tipo? Ficamos no aguardo ;)</label>
-                    <input type="text" id="opniao" required="required" name="opniao" />
+                    <label for="opniao">Sua opinião é muito importante para nós, que tal deixar algum sugestão ou algo do tipo? Ficamos no aguardo ;)</label>
+                    <input type="text" id="opniao" required  name="opniao" />
                 </div>
 
                 <div class="button">
                     <a id="finalizar" href="#cadastro5" onclick="etapaCinco()">Finalizar</a>
+                </div>
+                
+                <div class="button">
+                    <a id="continuar" href="#cadastro3" onclick="etapaTres()">Voltar</a>
                 </div>
             </form>
         </div>
@@ -209,13 +223,13 @@
         <div class="formulario">
             <form class="form5">
                 <div class="campo-dados" id="campo-concluido">
-                    <label for="concluido">Entraremos em contato primeiramente por email, caso não obtivermos um retorno, tentaremos por telefone.<br><br></label>
+                    <label for="concluido">Entraremos em contato primeiramente por email. Caso não obtivermos um retorno, tentaremos por telefone.<br><br></label>
                     <label for="concluido">Fica a dica: as vagas são preenchidas por ordem de cadastro, então garanta que seus documentos e dados sejam preenchidos e enviados corretamente para não ser preciso um novo cadastro.<br><br></label>
                     <label for="concluido">Atenciosamente,</label>
                 </div>
 
                 <div class="campo-dados" id="campo-concluido-logo">
-                    <img id="img-concluido" src="completo p.png" alt="logo-meu-quiosque-minha-vida">
+                    <img id="img-concluido" src="../src/completo p.png" alt="logo-meu-quiosque-minha-vida">
                 </div>
 
                 <div class="button">
