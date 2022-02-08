@@ -66,7 +66,7 @@ As ferramentas usadas para a construção do projeto foram as seguintes:
 
 ## 📜 Deploy
 
-O acesso à aplicação é feito por [aqui](https://)
+O acesso à aplicação é feito por [aqui](https://levifrota.github.io/trabalho-eng-soft/)
 
 ## ⚙️ Funcionalidades
 
