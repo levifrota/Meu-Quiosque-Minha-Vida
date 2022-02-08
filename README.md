@@ -38,13 +38,11 @@ Foi usado também a ferramenta Kanban, que ajudou na organização do trabalho, 
 ## 📚 Modelagem UML
 
 
-## 🖥️ Protótipo
-O protótipo implementado permite o cadasto de candidatos interessados em adquirir uma vaga em uma praça de Sobral (CE). Caso selecionado, o indivíduo poderá administrar um quiosque na praça que o sistema achar maior conformidade entre o interesse do solicitante e a disponibilidade da praça. 
+## 🖥️ Descrição do Protótipo
+O protótipo implementado permite o cadastro de candidatos interessados em adquirir uma vaga em uma praça de Sobral (CE). Caso selecionado, o indivíduo poderá administrar um quiosque na praça que o sistema achar maior conformidade entre o interesse do solicitante e a disponibilidade da praça. 
 
-A primeira página solicita informações básicas para a avaliação, relacionadas a identificação e localização do candidato. 
+A primeira página solicita informações básicas para a avaliação, relacionadas à identificação e localização do candidato. Na página seguinte, o candidato deve informar sua categoria e deve fazer upload no sistema de fotos de alguns documentos pedidos. Na terceira página, é questionada a área/setor de interesse do candidato e se ele possui alguma experiência nela. Por fim, é solicitada a praça de interesse e é deixado um campo para possíveis sugestões. Caso os passos descritos tenham sido efetuados corretamente, o sistema informa a conclusão do cadastro, que permitirá a avaliação e, posteriormente, a divulgação do resultado da solicitação. 
 
-Na página seguinte, arquivos 
-...
 ## 🛠 Tecnologias Usadas
 
 As ferramentas usadas para a construção do projeto foram as seguintes:
