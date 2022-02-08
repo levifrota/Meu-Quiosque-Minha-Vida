@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "roboto", Arial, 'Courier New', Courier, monospace;
+    color: #9E9E9E;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+article {
+    height: 100vh;
+    background-color: white;
+    width: 100vw;
+}
+
+input::placeholder {
+    color: #9E9E9E;
+}
+
+a {
+    text-decoration: none;
+}
+
+select {
+    width: 100%;
+    border: 0;
+    background-color: #F5F5F5;
+    font-family: "roboto", Arial, 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: #9E9E9E;
+    border-radius: 5px;
+    padding: 6px 10px 6px 10px;
+    margin: 1% 0 3% 0;
+}
+
+.cadastro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.title {
+    height: max-content;
+    width: max-content;
+    margin: 10% 0 0 5%;
+}
+
+.title h1 {
+    font-size: 32px;
+    font-weight: 500;
+    text-shadow: 2px 2px 2px #00000009;
+}
+
+.formulario {
+    position: relative;
+    top: 22%;
+    right: 6%;
+    width: 50vw;
+    height: min-content;
+    background-color: rgba(255, 255, 255, 0.082);
+    backdrop-filter: blur(4px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.034);
+    padding: 20px 40px 20px 20px;
+    border-radius: 15px;
+    z-index: 5;
+}
+
+.form1,
+.form2,
+.form3,
+.form4,
+.form5 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.campo-dados {
+    display: block;
+    margin-top: 5px;
+}
+
+#campo-nome,
+#campo-email,
+#campo-rua {
+    width: 65%;
+}
+
+#campo-nascimento,
+#campo-telefone,
+#campo-cep,
+#campo-bairro,
+#campo-numero,
+#campo-cidade {
+    width: 28%;
+}
+
+#campo-complemento {
+    width: 64%;
+}
+
+label {
+    width: 100%;
+    color: #7C7C7C;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+input {
+    width: 100%;
+    border-width: 0;
+    background-color: #F5F5F5;
+    font-family: "roboto", Arial, 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: #9E9E9E;
+    margin: 1% 0 3% 0;
+}
+
+#nome,
+#date,
+#email,
+#tel,
+#cep,
+#rua,
+#bairro,
+#estado,
+#cidade,
+#complemento {
+    padding: 6px 10px 6px 10px;
+    border-radius: 5px;
+    height: 20px;
+}
+
+.termos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.termos input {
+    padding: 0;
+    margin: 0 8px 0 0;
+    width: min-content;
+}
+
+.termos label {
+    padding: 0;
+    margin: 0;
+}
+
+.button {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-items: flex-end;
+    right: 50px;
+    width: 100%;
+}
+
+#continuar,
+#finalizar,
+#pg-inicial {
+    background-color: #B5A5E3;
+    border-width: 0;
+    border-radius: 100px;
+    padding: 10px 20px 10px 20px;
+    font-family: "roboto", Arial, 'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#finalizar {
+    margin-top: 20px;
+}
+
+#pg-inicial {
+    margin-bottom: 20px;
+}
+
+#continuar:hover,
+#finalizar:hover,
+#pg-inicial:hover {
+    cursor: pointer;
+    background-color: #B5A5E3;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#cadastro2 .formulario {
+    width: 30vw;
+}
+
+#campo-desc {
+    margin-bottom: 20px;
+}
+
+#categ,
+#pdf-rgecpf,
+#outros-doc {
+    padding: 6px 10px 6px 10px;
+    border-radius: 5px;
+    height: 20px;
+}
+
+#cadastro2 .button {
+    margin-top: 10px;
+}
+
+#cadastro3 .formulario {
+    width: 28vw;
+    margin: 5% 5% 0 0;
+}
+
+#campo-segundaopc {
+    margin-bottom: 30px;
+}
+
+#cadastro4 .formulario {
+    width: 25vw;
+    margin: 3% 4% 0 0;
+}
+
+#segunda-praca,
+#opniao {
+    margin: 5px 0 5px 0;
+    padding: 6px 10px 6px 10px;
+    border-radius: 5px;
+    height: 20px;
+    width: 100%;
+}
+
+#campo-segunda-praca label {
+    color: #c0c0c0;
+}
+
+#cadastro5 .formulario {
+    width: 26vw;
+    margin: -1% 7% 0 0;
+}
+
+#cadastro5 .button {
+    display: flex;
+    justify-content: center;
+}
+
+#campo-concluido-logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#img-concluido {
+    height: 12vw;
+    margin: -5% 0 0 0;
+}
+
+
+/* ----------------------------------------------------------------- */
+
+.container {
+    position: fixed;
+    bottom: 4%;
+    left: 3%;
+}
+
+.progresso {
+    display: flex;
+    align-items: center;
+}
+
+.descricao p {
+    font-size: 15px;
+    margin: 8px 0 8px 0;
+}
+
+.barra {
+    height: 140px;
+    width: 15px;
+    background-color: #B5A5E3;
+    border-radius: 500px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.indicador {
+    height: 9px;
+    width: 9px;
+    background-color: white;
+    border-radius: 100px;
+    position: relative;
+    top: 83%;
+}
+
+.contar {
+    position: fixed;
+    bottom: -130px;
+    right: 0;
+    z-index: 1;
+}
+
+.contar p {
+    color: #B5A5E3;
+    font-size: 500px;
+    font-weight: 700;
+}
