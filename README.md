@@ -8,7 +8,7 @@
  <a href="#-planejamento">Planejamento</a> •
  <a href="#-orçamento">Orçamento</a> • 
  <a href="#-modelagem-uml">Modelagem</a> • 
- <a href="#-prototipo">Prototipo</a> • 
+ <a href="#-prototipo">Descrição do Protótipo</a> • 
  <a href="#-tecnologias-usadas">Tecnologias</a> • 
  <a href="#-deploy">Deploy</a> • 
  <a href="#-funcionalidades">Funcionalidades</a> • 
@@ -36,6 +36,15 @@ Foi usado também a ferramenta Kanban, que ajudou na organização do trabalho, 
 
 
 ## 📚 Modelagem UML
+A modelagem do sistema está apresentada pelos seguintes diagramas. 
+O Diagrama de Caso de Uso é mostrado abaixo.
+
+![](./docs/diagrama.jpg)
+
+O Diagrama de Atividades é mostrado abaixo.
+
+![](./docs/actdia.jpg)
+
 
 
 ## 🖥️ Descrição do Protótipo
