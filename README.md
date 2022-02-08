@@ -8,7 +8,7 @@
  <a href="#-planejamento">Planejamento</a> •
  <a href="#-orçamento">Orçamento</a> • 
  <a href="#-modelagem-uml">Modelagem</a> • 
- <a href="#-prototipo">Prototipo</a> • 
+ <a href="#-prototipo">Descrição do Protótipo</a> • 
  <a href="#-tecnologias-usadas">Tecnologias</a> • 
  <a href="#-deploy">Deploy</a> • 
  <a href="#-funcionalidades">Funcionalidades</a> • 
@@ -36,10 +36,21 @@ Foi usado também a ferramenta Kanban, que ajudou na organização do trabalho, 
 
 
 ## 📚 Modelagem UML
+A modelagem do sistema está apresentada pelos seguintes diagramas. 
+O Diagrama de Caso de Uso é mostrado abaixo.
+
+![](./docs/diagrama.jpg)
+
+O Diagrama de Atividades é mostrado abaixo.
+
+![](./docs/actdia.jpg)
 
 
-## 🖥️ Protótipo
 
+## 🖥️ Descrição do Protótipo
+O protótipo implementado permite o cadastro de candidatos interessados em adquirir uma vaga em uma praça de Sobral (CE). Caso selecionado, o indivíduo poderá administrar um quiosque na praça que o sistema achar maior conformidade entre o interesse do solicitante e a disponibilidade da praça. 
+
+A primeira página solicita informações básicas para a avaliação, relacionadas à identificação e localização do candidato. Na página seguinte, o candidato deve informar sua categoria e deve fazer upload no sistema de fotos de alguns documentos pedidos. Na terceira página, é questionada a área/setor de interesse do candidato e se ele possui alguma experiência nela. Por fim, é solicitada a praça de interesse e é deixado um campo para possíveis sugestões. Caso os passos descritos tenham sido efetuados corretamente, o sistema informa a conclusão do cadastro, que permitirá a avaliação e, posteriormente, a divulgação do resultado da solicitação. 
 
 ## 🛠 Tecnologias Usadas
 
