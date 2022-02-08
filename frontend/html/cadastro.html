@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <link href="estilo.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="function-simple.js"></script>
+
+</head>
+
+<body>
+    <article class="cadastro" id="cadastro1">
+        <div class="title">
+            <h1>Vamos começar!</h1>
+            <h1>Cadastre seus dados para<br>iniciar.</h1>
+        </div>
+
+        <div class="formulario">
+            <form class="form1">
+                <div class="campo-dados" id="campo-nome">
+                    <label for="nome">Nome Completo</label>
+                    <input type="text" id="nome" required="required" name="nome" />
+                </div>
+
+                <div class="campo-dados" id="campo-nascimento">
+                    <label for="nascimento">Data de nascimento</label>
+                    <input type="date" id="date" required="required" name="date" />
+                </div>
+
+                <div class="campo-dados" id="campo-email">
+                    <label for="nascimento">Endereço de email</label>
+                    <input type="email" id="email" required="required" name="email" />
+                </div>
+
+                <div class="campo-dados" id="campo-telefone">
+                    <label for="nascimento">Telefone</label>
+                    <input type="tel" id="tel" required="required" name="tel" placeholder="(00) 00000 - 0000" />
+                </div>
+
+                <div class="campo-dados" id="campo-cep">
+                    <label for="nascimento">CEP</label>
+                    <input type="text" id="cep" required="required" name="cep" placeholder="00000 - 000" />
+                </div>
+
+                <div class="campo-dados" id="campo-rua">
+                    <label for="nascimento">Rua</label>
+                    <input type="text" id="rua" required="required" name="rua" />
+                </div>
+
+                <div class="campo-dados" id="campo-bairro">
+                    <label for="nascimento">Bairro</label>
+                    <input type="text" id="bairro" required="required" name="bairro" />
+                </div>
+
+                <div class="campo-dados" id="campo-numero">
+                    <label for="nascimento">Número</label>
+                    <input type="text" id="estado" required="required" name="numero" />
+                </div>
+
+                <div class="campo-dados" id="campo-cidade">
+                    <label for="nascimento">Cidade</label>
+                    <input type="text" id="cidade" required="required" name="cidade" />
+                </div>
+
+                <div class="campo-dados" id="campo-complemento">
+                    <label for="nascimento">Complemento</label>
+                    <input type="text" id="complemento" required="required" name="complemento" />
+                </div>
+
+                <div class="termos">
+                    <input type="checkbox" id="check-termos" name="check-termos" />
+                    <label for="aceitar-termos">Aceito os termos e política de uso de dados.</label>
+                </div>
+
+                <div class="button">
+                    <a id="continuar" href="#cadastro2" onclick="etapaDois()">Continuar</a>
+                </div>
+            </form>
+        </div>
+    </article>
+
+    <article class="cadastro" id="cadastro2">
+        <div class="title">
+            <h1>Certo, agora precisamos</h1>
+            <h1>confirmar algumas<br>informações para sua vaga.</h1>
+        </div>
+
+        <div class="formulario">
+            <form class="form2">
+                <div class="campo-dados" id="campo-desc">
+                    <label for="desc-cadastro2">Todos os documentos devem ser enviados no formato PDF e em um único arquivo de acordo com o manual. O arquivo do RG e CPF devem ser enviados no local solicitado. Garanta que os arquivos estejam legiveis. Clique aqui para acessar o manual dos arquivos.</label>
+                </div>
+
+                <div class="campo-dados" id="campo-categoria">
+                    <label for="categoria">Selecione a categoria que você se enquadra</label>
+                    <select id="list-categorias">
+                        <option>Selecionar...</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div>
+
+                <div class="campo-dados" id="campo-rgecpf">
+                    <label for="select-arquivo">Foto do RG e CPF (baixa renda, informais e demitidos)</label>
+                    <input type="file" id="pdf-rgecpf" accept=".pdf" />
+                </div>
+
+                <div class="campo-dados" id="campo-outros">
+                    <label for="desc-doc-outros">Outros arquivos de acordo com a categoria</label>
+                    <input type="file" id="outros-doc" accept=".pdf" placeholder="ss" />
+                </div>
+
+                <div class="button">
+                    <a id="continuar" href="#cadastro3" onclick="etapaTres()">Continuar</a>
+                </div>
+            </form>
+        </div>
+    </article>
+
+    <article class="cadastro" id="cadastro3">
+        <div class="title">
+            <h1>Vamos falar sobre sua área</h1>
+            <h1>de atuação/interesse.</h1>
+        </div>
+
+        <div class="formulario">
+            <form class="form3">
+                <div class="campo-dados" id="campo-categoria">
+                    <label for="area">Selecione a área/setor que você deseja atuar</label>
+                    <select id="list-area">
+                        <option>Selecionar...</option>
+                        <option>1A</option>
+                        <option>2A</option>
+                        <option>3A</option>
+                        <option>4A</option>
+                    </select>
+                </div>
+
+                <div class="campo-dados" id="campo-experiencia">
+                    <label for="experiencia">Você já trabalhou nessa área/setor antes?</label>
+                    <select id="list-exp">
+                        <option>Selecionar...</option>
+                        <option>SIM</option>
+                        <option>NÃO</option>
+                    </select>
+                </div>
+
+                <div class="campo-dados" id="campo-segundaopc">
+                    <label for="segunda-opc">Caso não exista mais vaga, se fosse possível escolher uma segunda opção para atuação, qual área seria?</label>
+                    <select id="list-segundaopc">
+                        <option>Selecionar...</option>
+                        <option>aaaaaaaa</option>
+                        <option>bbbbbbbb</option>
+                        <option>cccccccccccc</option>
+                    </select>
+                </div>
+
+                <div class="button">
+                    <a id="continuar" href="#cadastro4" onclick="etapaQuatro()">Continuar</a>
+                </div>
+            </form>
+        </div>
+    </article>
+
+    <article class="cadastro" id="cadastro4">
+        <div class="title">
+            <h1>E por último, o seu local de</h1>
+            <h1>trabalho, a sua praça de<br>atuação.</h1>
+        </div>
+
+        <div class="formulario">
+            <form class="form4">
+                <div class="campo-dados" id="campo-praca">
+                    <label for="praca">Qual a preferência da sua praça?</label>
+                    <select id="list-praca">
+                        <option>Selecionar...</option>
+                        <option>Praça São Sãosaoaosaosoa</option>
+                        <option>2P</option>
+                        <option>dsdad</option>
+                        <option>da asd sad as dasdfsdfs</option>
+                    </select>
+                </div>
+
+                <div class="campo-dados" id="campo-segunda-praca">
+                    <label for="segunda-praca">Especifique qual outra praça</label>
+                    <input type="text" id="segunda-praca" required="required" name="segunda-praca" disabled/>
+                </div>
+
+                <div class="campo-dados" id="campo-opniao">
+                    <label for="opniao">Sua opnião é muito importante para nós, que tal deixar algum sugestão ou algo do tipo? Ficamos no aguardo ;)</label>
+                    <input type="text" id="opniao" required="required" name="opniao" />
+                </div>
+
+                <div class="button">
+                    <a id="finalizar" href="#cadastro5" onclick="etapaCinco()">Finalizar</a>
+                </div>
+            </form>
+        </div>
+    </article>
+
+    <article class="cadastro" id="cadastro5">
+        <div class="title">
+            <h1>Pronto! Agora é com a gente.</h1>
+            <h1>Vamos tentar entrar em contato o<br>mais rápido possível.</h1>
+        </div>
+
+        <div class="formulario">
+            <form class="form5">
+                <div class="campo-dados" id="campo-concluido">
+                    <label for="concluido">Entraremos em contato primeiramente por email, caso não obtivermos um retorno, tentaremos por telefone.<br><br></label>
+                    <label for="concluido">Fica a dica: as vagas são preenchidas por ordem de cadastro, então garanta que seus documentos e dados sejam preenchidos e enviados corretamente para não ser preciso um novo cadastro.<br><br></label>
+                    <label for="concluido">Atenciosamente,</label>
+                </div>
+
+                <div class="campo-dados" id="campo-concluido-logo">
+                    <img id="img-concluido" src="completo p.png" alt="logo-meu-quiosque-minha-vida">
+                </div>
+
+                <div class="button">
+                    <a id="pg-inicial" href="index.html">Página Inicial</a>
+                </div>
+            </form>
+        </div>
+    </article>
+
+    <div class="container">
+        <div class="progresso">
+            <div class="barra">
+                <div class="indicador" id="indicador"></div>
+            </div>
+            <div class="descricao">
+                <p>Concluído</p>
+                <p>Sua praça</p>
+                <p>Área Comercial</p>
+                <p>Categoria</p>
+                <p>Seus Dados</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="contar">
+        <p id="valor-cont">1</p>
+    </div>
+</body>
+
+</html>
