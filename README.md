@@ -34,18 +34,18 @@ Foi usado também a ferramenta Kanban, que ajudou na organização do trabalho, 
 
 ## 💸 Orçamento 
 
-A análise do orçamento foi feita levando em conta que a operação é feita totalmente de forma remota, sendo assim, dispensando gastos que envolvem estabelecimentos físicos, dessa forma, os gastos se resumem basicamente em mão de obra, onde o custo é calculado por hora. A parte de programação foi dividida entre 2 Programadores, um de Front-End e o outro de Back-End, além disso, foi contabilizado o custo de um Web Designer, que desenvolveu a interface gráfica do projeto. A tabela com os custos do projeto é mostrada a seguir:
+A análise do orçamento foi feita levando em conta que a operação é feita totalmente de forma remota, sendo assim, dispensando gastos que envolvem estabelecimentos físicos, dessa forma, os gastos se resumem basicamente em mão de obra, onde o custo é calculado por hora. A parte de programação foi dividida entre 3 Programadores, dois de Front-End e outro de Back-End, além disso, foi contabilizado o custo de um Designer, que desenvolveu a interface gráfica do projeto. A tabela com os custos do projeto é mostrada a seguir:
 
 
 
-| Profissional          | Valor/Hora      | Qtd/H | Total     |
-|-----------------------|-----------------|-------|-----------|
-| Programador Front-End | R$000,00        |   1   | R$000,00  |
-| Programador Back-End  | R$000,00        |   1   | R$000,00  |
-| Marketing             | R$000,00        |   1   | R$000,00  |
-| Web Designer          | R$000,00        |   1   | R$000,00  |
-| --------------------- | --------------- | ----- | --------- |
-| Valor total           |                 |       | R$000,00  |
+| Profissional            | Valor/Hora      | Qtd/H | Total     |
+|-------------------------|-----------------|-------|-----------|
+| Programador Front-End 1 | R$000,00        |   7   | R$000,00  |
+| Programador Front-End 2 | R$000,00        |   5   | R$000,00  |
+| Programador Back-End    | R$000,00        |   1   | R$000,00  |
+| Designer                | R$000,00        |   5   | R$000,00  |
+| ----------------------- | --------------- | ----- | --------- |
+| Valor total             |                 |       | R$000,00  |
 
 
 ## 📚 Modelagem UML
