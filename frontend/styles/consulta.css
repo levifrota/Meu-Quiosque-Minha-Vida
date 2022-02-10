@@ -8,11 +8,33 @@ body {
     font-family: "roboto", Arial, 'Courier New', Courier, monospace;
     color: #8f8f8f;
     overflow-x: hidden;
+    overflow-y: hidden;
     background-color: white;
 }
 
 html {
     scroll-behavior: smooth;
+}
+
+.animacao {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.animacao img {
+    width: 60%;
+    animation: girar 60s linear infinite;
+}
+
+@keyframes girar {
+    from {
+        transform: rotate(360deg);
+    }
 }
 
 article {
@@ -22,6 +44,7 @@ article {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    z-index: 5;
 }
 
 .container {
@@ -30,6 +53,8 @@ article {
     border-radius: 10px;
     box-shadow: 2px 3px 10px rgba(92, 92, 92, 0.2);
     width: 28vw;
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(5px);
 }
 
 h1 {
