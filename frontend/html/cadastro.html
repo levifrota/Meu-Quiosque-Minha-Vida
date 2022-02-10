@@ -91,7 +91,7 @@
         <div class="formulario">
             <form class="form2">
                 <div class="campo-dados" id="campo-desc">
-                    <label for="desc-cadastro2">Todos os documentos devem ser enviados no formato PDF e em um único arquivo de acordo com o manual. O arquivo do RG e CPF devem ser enviados no local solicitado. Garanta que os arquivos estejam legiveis. Clique aqui para acessar o manual dos arquivos.</label>
+                    <label for="desc-cadastro2">Todos os documentos devem ser enviados no formato PDF e em um único arquivo de acordo com o manual. O arquivo do RG deve ser enviado no local solicitado. Garanta que os arquivos estejam legiveis. <a href="" target="_blank">Clique aqui para acessar o manual dos arquivos.</a></label>
                 </div>
 
                 <div class="campo-dados" id="campo-categoria">
@@ -105,9 +105,14 @@
                     </select>
                 </div>
 
-                <div class="campo-dados" id="campo-rgecpf">
-                    <label for="select-arquivo">Insira um link das fotos do RG e CPF (baixa renda, informais e demitidos)</label>
-                    <input type="text" id="rg-cpf" placeholder="Ex: https://www.drive.google.com/abcdefg" required />
+                <div id="campo-cpf">
+                    <label for="cpf" >Digite seu CPF</label>
+                    <input type="text" id="cpf" placeholder="000.000.000-00" onkeypress="$(this).mask('000.000.000-00')" required>
+                </div>
+
+                <div class="campo-dados" id="campo-rg">
+                    <label for="select-arquivo">Insira um link das fotos do RG (baixa renda, informais e demitidos)</label>
+                    <input type="text" id="rg" placeholder="Ex: https://www.drive.google.com/abcdefg" required />
                 </div>
 
                 <div class="campo-dados" id="campo-outros">
