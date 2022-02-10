@@ -105,20 +105,20 @@
                 </div>
 
                 <div class="campo-dados" id="campo-rgecpf">
-                    <label for="select-arquivo">Foto do RG e CPF (baixa renda, informais e demitidos)</label>
-                    <input type="file" id="pdf-rgecpf" accept=".pdf" />
+                    <label for="select-arquivo">Insira um link das fotos do RG e CPF (baixa renda, informais e demitidos)</label>
+                    <input type="text" id="rg-cpf" placeholder="Ex: https://www.drive.google.com/abcdefg" required />
                 </div>
 
                 <div class="campo-dados" id="campo-outros">
-                    <label for="desc-doc-outros">Outros arquivos de acordo com a categoria</label>
-                    <input type="file" id="outros-doc" accept=".pdf" placeholder="ss" />
+                    <label for="desc-doc-outros">Insira um lin com outros arquivos de acordo com a categoria</label>
+                    <input type="text" id="outros-doc" placeholder="Ex: https://www.drive.google.com/abcdefg" required/>
                 </div>
 
                 <div class="button">
                     <a id="continuar" href="#cadastro3" onclick="etapaTres()">Continuar</a>
                 </div>
-                <div class="button">
-                    <a id="continuar" href="#cadastro1" onclick="etapaUm()">Voltar</a>
+                <div class="button1">
+                    <a id="voltar" href="#cadastro1" onclick="etapaUm()">Voltar</a>
                 </div>
             </form>
         </div>
@@ -165,8 +165,8 @@
                 <div class="button">
                     <a id="continuar" href="#cadastro4" onclick="etapaQuatro()">Continuar</a>
                 </div>
-                <div class="button">
-                    <a id="continuar" href="#cadastro2" onclick="etapaDois()">Voltar</a>
+                <div class="button1">
+                    <a id="voltar" href="#cadastro2" onclick="etapaDois()">Voltar</a>
                 </div>
             </form>
         </div>
@@ -205,8 +205,8 @@
                     <a id="finalizar" href="#cadastro5" onclick="etapaCinco()">Finalizar</a>
                 </div>
                 
-                <div class="button">
-                    <a id="continuar" href="#cadastro3" onclick="etapaTres()">Voltar</a>
+                <div class="button1">
+                    <a id="voltar" href="#cadastro3" onclick="etapaTres()">Voltar</a>
                 </div>
             </form>
         </div>

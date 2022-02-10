@@ -2,6 +2,7 @@ function etapaUm() {
     document.getElementById("indicador").style.top = 0 + "%";
     document.getElementById("valor-cont").textContent = "1";
 }
+
 function etapaDois() {
     document.getElementById("indicador").style.top = 65 + "%";
     document.getElementById("valor-cont").textContent = "2";
