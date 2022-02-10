@@ -1,22 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Praças - Meu Quiosque Minha Vida</title>
-    <link rel="stylesheet" href="../styles/index.css" />
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.js"
-      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-      crossorigin="anonymous"
-    ></script>
-    <script>
-      $(function () {
-        $("#header").load("header.html");
-      });
-    </script>
-  </head>
 
-  <body>
-    <div id="header"></div>
-  </body>
+<head>
+    <meta charset="utf-8">
+    <link href="../styles/consulta.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="../js/animation.js"></script>
+    <title>Consulta - Meu Quiosque, Minha Vida</title>
+
+</head>
+
+<body>
+    <div class="animacao">
+        <img src="../src/loading.png">
+    </div>
+    <article>
+        <div class="container">
+            <h1>Seus Dados</h1>
+            <div class="group">
+                <div class="content">
+                    <p>Email: </p>
+                    <p id="campo-email">usuaer@dominio.com</p>
+                </div>
+                <div class="content">
+                    <p>Categoria: </p>
+                    <p id="campo-categoria">valor</p>
+                </div>
+                <div class="content">
+                    <p>Área/Setor: </p>
+                    <p id="campo-setor">valor</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <h1>Andamento da Solicitação</h1>
+            <div class="group">
+                <div class="content">
+                    <p>Status: </p>
+                    <p id="campo-status">valor</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="button">
+            <a id="continuar">Página Inicial</a>
+        </div>
+    </article>
+</body>
+
 </html>
