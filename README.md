@@ -41,10 +41,10 @@ A análise do orçamento foi feita levando em conta que a operação é feita to
 | Profissional              | Valor/Hora      | Qtd/H | Total      |
 |---------------------------|-----------------|-------|------------|
 | Desenvolvimento Front-End |    R$300,00     |   20  | R$6.000,00 |
-| Desenvolvimento Back-End  |    R$300,00     |   1   |  R$300,00  |
+| Desenvolvimento Back-End  |    R$300,00     |   6   | R$1.800,00 |
 | Designer                  |    R$300,00     |   2   |  R$600,00  |
 |---------------------------|---------------- |-------|------------|
-| Valor total               |                 |       | R$6.900,00 |
+| Valor total               |                 |       | R$8.400,00 |
 
 
 ## 📚 Modelagem UML
