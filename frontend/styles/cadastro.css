@@ -157,7 +157,8 @@ input {
     margin: 0;
 }
 
-.button, .button1 {
+.button,
+.button1 {
     display: flex;
     flex-direction: row-reverse;
     justify-items: flex-end;
@@ -165,8 +166,8 @@ input {
     width: 100%;
 }
 
-.button1{
-    margin-top:10px;
+.button1 {
+    margin-top: 10px;
 }
 
 #voltar,
@@ -183,7 +184,6 @@ input {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
-
 #finalizar {
     margin-top: 20px;
 }
@@ -191,6 +191,7 @@ input {
 #pg-inicial {
     margin-bottom: 20px;
 }
+
 #voltar:hover,
 #continuar:hover,
 #finalizar:hover,
@@ -202,6 +203,7 @@ input {
 
 #cadastro2 .formulario {
     width: 30vw;
+    margin-top: -5%;
 }
 
 #campo-desc {
