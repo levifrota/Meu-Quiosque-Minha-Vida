@@ -22,52 +22,52 @@
             <form class="form1">
                 <div class="campo-dados" id="campo-nome">
                     <label for="nome">Nome Completo</label>
-                    <input type="text" id="nome" required  name="nome" />
+                    <input type="text" id="nome" required name="nome" onclick="bordas('nome')" />
                 </div>
 
                 <div class="campo-dados" id="campo-nascimento">
                     <label for="nascimento">Data de nascimento</label>
-                    <input type="date" id="date" required  name="date" />
+                    <input type="date" id="date" required name="date" onclick="bordas('date')" />
                 </div>
 
                 <div class="campo-dados" id="campo-email">
                     <label for="email">Endereço de email</label>
-                    <input type="email" id="email" required  name="email" />
+                    <input type="email" id="email" required name="email" onclick="bordas('email')" />
                 </div>
 
                 <div class="campo-dados" id="campo-telefone">
                     <label for="telefone">Telefone</label>
-                    <input type="tel" id="tel" required  name="tel" placeholder="(00) 00000 - 0000" onkeypress="$(this).mask('(00) 0000-00009')"/>
+                    <input type="tel" id="tel" required name="tel" onclick="bordas('tel')" placeholder="(00) 00000 - 0000" onkeypress="$(this).mask('(00) 0000-00009')" />
                 </div>
 
                 <div class="campo-dados" id="campo-cep">
                     <label for="cep">CEP</label>
-                    <input type="text" id="cep" required  name="cep" placeholder="00000 - 000" onkeypress="$(this).mask('00.000-000')"/>
+                    <input type="text" id="cep" required name="cep" onclick="bordas('cep')" placeholder="00000 - 000" onkeypress="$(this).mask('00.000-000')" />
                 </div>
 
                 <div class="campo-dados" id="campo-rua">
                     <label for="rua">Rua</label>
-                    <input type="text" id="rua" required  name="rua" />
+                    <input type="text" id="rua" required name="rua" onclick="bordas('rua')" />
                 </div>
 
                 <div class="campo-dados" id="campo-bairro">
                     <label for="bairro">Bairro</label>
-                    <input type="text" id="bairro" required  name="bairro" />
+                    <input type="text" id="bairro" required name="bairro" onclick="bordas('bairro')" />
                 </div>
 
                 <div class="campo-dados" id="campo-numero">
                     <label for="numero">Número</label>
-                    <input type="number" id="estado" required  name="numero" />
+                    <input type="number" id="estado" required name="numero" onclick="bordas('estado')" />
                 </div>
 
                 <div class="campo-dados" id="campo-cidade">
                     <label for="cidade">Cidade</label>
-                    <input type="text" id="cidade" required  name="cidade" />
+                    <input type="text" id="cidade" required name="cidade" onclick="bordas('cidade')" />
                 </div>
 
                 <div class="campo-dados" id="campo-complemento">
-                    <label for="complemento">Complemento</label>
-                    <input type="text" id="complemento" required  name="complemento" />
+                    <label for="complemento">Complemento <i><font size=-2>(campo opcional)</font></i></label>
+                    <input type="text" id="complemento" required name="complemento" />
                 </div>
 
                 <div class="termos">
@@ -76,7 +76,7 @@
                 </div>
 
                 <div class="button">
-                    <a id="continuar" href="#cadastro2" onclick="etapaDois()">Continuar</a>
+                    <a id="continuar" onclick="etapaDois()">Continuar</a>
                 </div>
             </form>
         </div>
@@ -96,7 +96,7 @@
 
                 <div class="campo-dados" id="campo-categoria">
                     <label for="categoria">Selecione a categoria que você se enquadra</label>
-                    <select id="list-categorias">
+                    <select id="list-categorias" onclick="bordas('list-categorias')">
                         <option>Selecionar...</option>
                         <option>1</option>
                         <option>2</option>
@@ -106,22 +106,22 @@
                 </div>
 
                 <div id="campo-cpf">
-                    <label for="cpf" >Digite seu CPF</label>
-                    <input type="text" id="cpf" placeholder="000.000.000-00" onkeypress="$(this).mask('000.000.000-00')" required>
+                    <label for="cpf">Digite seu CPF</label>
+                    <input type="text" id="cpf" placeholder="000.000.000-00" onclick="bordas('cpf')" onkeypress="$(this).mask('000.000.000-00')" required>
                 </div>
 
                 <div class="campo-dados" id="campo-rg">
                     <label for="select-arquivo">Insira um link das fotos do RG (baixa renda, informais e demitidos)</label>
-                    <input type="text" id="rg" placeholder="Ex: https://www.drive.google.com/abcdefg" required />
+                    <input type="text" id="rg" onclick="bordas('rg')" placeholder="Ex: https://www.drive.google.com/abcdefg" required />
                 </div>
 
                 <div class="campo-dados" id="campo-outros">
                     <label for="desc-doc-outros">Insira um lin com outros arquivos de acordo com a categoria</label>
-                    <input type="text" id="outros-doc" placeholder="Ex: https://www.drive.google.com/abcdefg" required/>
+                    <input type="text" id="outros-doc" onclick="bordas('outros-doc')" placeholder="Ex: https://www.drive.google.com/abcdefg" required/>
                 </div>
 
                 <div class="button">
-                    <a id="continuar" href="#cadastro3" onclick="etapaTres()">Continuar</a>
+                    <a id="continuar" onclick="etapaTres()">Continuar</a>
                 </div>
                 <div class="button1">
                     <a id="voltar" href="#cadastro1" onclick="etapaUm()">Voltar</a>
@@ -140,7 +140,7 @@
             <form class="form3">
                 <div class="campo-dados" id="campo-categoria">
                     <label for="area">Selecione a área/setor que você deseja atuar</label>
-                    <select id="list-area">
+                    <select id="list-area" onclick="bordas('list-area')">
                         <option>Selecionar...</option>
                         <option>1A</option>
                         <option>2A</option>
@@ -151,7 +151,7 @@
 
                 <div class="campo-dados" id="campo-experiencia">
                     <label for="experiencia">Você já trabalhou nessa área/setor antes?</label>
-                    <select id="list-exp">
+                    <select id="list-exp" onclick="bordas('list-exp')">
                         <option>Selecionar...</option>
                         <option>SIM</option>
                         <option>NÃO</option>
@@ -160,7 +160,7 @@
 
                 <div class="campo-dados" id="campo-segundaopc">
                     <label for="segunda-opc">Caso não exista mais vaga, se fosse possível escolher uma segunda opção para atuação, qual área seria?</label>
-                    <select id="list-segundaopc">
+                    <select id="list-segundaopc" onclick="bordas('list-segundaopc')">
                         <option>Selecionar...</option>
                         <option>aaaaaaaa</option>
                         <option>bbbbbbbb</option>
@@ -169,7 +169,7 @@
                 </div>
 
                 <div class="button">
-                    <a id="continuar" href="#cadastro4" onclick="etapaQuatro()">Continuar</a>
+                    <a id="continuar" onclick="etapaQuatro()">Continuar</a>
                 </div>
                 <div class="button1">
                     <a id="voltar" href="#cadastro2" onclick="etapaDois()">Voltar</a>
@@ -190,7 +190,7 @@
             <form class="form4">
                 <div class="campo-dados" id="campo-praca">
                     <label for="praca">Qual a preferência da sua praça?</label>
-                    <select id="list-praca">
+                    <select id="list-praca" onclick="bordas('list-praca')" oninput="liberar('label-segunda-praca', 'segunda-praca')">
                         <option>Selecionar...</option>
                         <option>Praça Senador Figueira</option>
                         <option>Praça do Sobral Shopping</option>
@@ -212,23 +212,24 @@
                         <option>Praça São Francisco</option>
                         <option>Praça da Coluna da Hora</option>
                         <option>Praça do Amor</option>
+                        <option>Outra</option>
                     </select>
                 </div>
 
                 <div class="campo-dados" id="campo-segunda-praca">
-                    <label for="segunda-praca">Especifique qual outra praça</label>
-                    <input type="text" id="segunda-praca" required  name="segunda-praca"/>
+                    <label for="segunda-praca" id="label-segunda-praca">Especifique qual outra praça</label>
+                    <input type="text" id="segunda-praca" onclick="bordas('segunda-praca')" required name="segunda-praca" disabled/>
                 </div>
 
                 <div class="campo-dados" id="campo-opniao">
-                    <label for="opniao">Sua opinião é muito importante para nós, que tal deixar algum sugestão ou algo do tipo? Ficamos no aguardo ;)</label>
-                    <input type="text" id="opniao" required  name="opniao" />
+                    <label for="opniao">Sua opinião é muito importante para nós, que tal deixar algum sugestão ou algo do tipo? Ficamos no aguardo ;) <i><font size=-2>(campo opcional)</font></i></label>
+                    <input type="text" id="opniao" required name="opniao" />
                 </div>
 
                 <div class="button">
-                    <a id="finalizar" href="#cadastro5" onclick="etapaCinco()">Finalizar</a>
+                    <a id="finalizar" onclick="etapaCinco()">Finalizar</a>
                 </div>
-                
+
                 <div class="button1">
                     <a id="voltar" href="#cadastro3" onclick="etapaTres()">Voltar</a>
                 </div>
