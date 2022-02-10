@@ -74,8 +74,10 @@ As ferramentas usadas para a construção do projeto foram as seguintes:
 - [JavaScript](https://www.javascript.com/)
 - [Overleaf](https://pt.overleaf.com/)
 - [Adobe Photoshop](https://www.adobe.com/br/products/photoshop.html/)
-- [HTML]
-- [CSS]
+- [WonderShare Filmora](https://filmora.wondershare.net/pt-br/)
+- [HTML5](https://dev.w3.org/html5/spec-LC/)
+- [CSS3](https://www.w3.org/TR/2001/WD-css3-roadmap-20010523/)
+- [draw.io](https://app.diagrams.net/)
 
 ## 📜 Deploy
 
