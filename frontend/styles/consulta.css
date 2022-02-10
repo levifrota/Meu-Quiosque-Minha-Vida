@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "roboto", Arial, 'Courier New', Courier, monospace;
+    color: #8f8f8f;
+    overflow-x: hidden;
+    background-color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+article {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 10px rgba(92, 92, 92, 0.2);
+    width: 28vw;
+}
+
+h1 {
+    font-size: 22px;
+    padding-bottom: 10px;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: #cecece;
+}
+
+p {
+    font-size: 15px;
+    padding: 0 5px 5px 0;
+}
+
+.group {
+    display: block;
+    margin-top: 10px;
+}
+
+.content {
+    display: inline-flex;
+    width: 100%;
+}
+
+#campo-status {
+    font-weight: 700;
+}
+
+.button {
+    margin: 20px;
+    background-color: #B5A5E3;
+    border-width: 0;
+    border-radius: 100px;
+    padding: 10px 20px 10px 20px;
+    font-family: "roboto", Arial, 'Courier New', Courier, monospace;
+    color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #B5A5E3;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+a {
+    color: white;
+    font-size: 16px;
+}
