@@ -38,14 +38,13 @@ A análise do orçamento foi feita levando em conta que a operação é feita to
 
 
 
-| Profissional            | Valor/Hora      | Qtd/H | Total     |
-|-------------------------|-----------------|-------|-----------|
-| Programador Front-End 1 | R$000,00        |   7   | R$000,00  |
-| Programador Front-End 2 | R$000,00        |   5   | R$000,00  |
-| Programador Back-End    | R$000,00        |   1   | R$000,00  |
-| Designer                | R$000,00        |   5   | R$000,00  |
-| ----------------------- | --------------- | ----- | --------- |
-| Valor total             |                 |       | R$000,00  |
+| Profissional              | Valor/Hora      | Qtd/H | Total      |
+|---------------------------|-----------------|-------|------------|
+| Desenvolvimento Front-End |    R$300,00     |   20  | R$6.000,00 |
+| Desenvolvimento Back-End  |    R$300,00     |   6   | R$1.800,00 |
+| Designer                  |    R$300,00     |   2   |  R$600,00  |
+|---------------------------|---------------- |-------|------------|
+| Valor total               |                 |       | R$8.400,00 |
 
 
 ## 📚 Modelagem UML
@@ -74,8 +73,10 @@ As ferramentas usadas para a construção do projeto foram as seguintes:
 - [JavaScript](https://www.javascript.com/)
 - [Overleaf](https://pt.overleaf.com/)
 - [Adobe Photoshop](https://www.adobe.com/br/products/photoshop.html/)
-- [HTML]
-- [CSS]
+- [WonderShare Filmora](https://filmora.wondershare.net/pt-br/)
+- [HTML5](https://dev.w3.org/html5/spec-LC/)
+- [CSS3](https://www.w3.org/TR/2001/WD-css3-roadmap-20010523/)
+- [draw.io](https://app.diagrams.net/)
 
 ## 📜 Deploy
 
@@ -95,4 +96,5 @@ O acesso à aplicação é feito por [aqui](https://levifrota.github.io/trabalho
 
 ## 📝 Referências
 
+- [ABRASEL - Associação Brasileira de Bares e Restaurantes](https://abrasel.com.br/)
 
