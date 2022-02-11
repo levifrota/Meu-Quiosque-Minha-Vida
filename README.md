@@ -84,7 +84,7 @@ As ferramentas usadas para a construção do projeto foram as seguintes:
 O acesso à aplicação é feito por [aqui](https://levifrota.github.io/trabalho-eng-soft/)
 
 ## ⚙️ Funcionalidades
-
+A tela inicial oferece algumas funcionalidades, tais como acessar a conta ou verificar se o candidato já possui alguma. Também é possível efetuar o cadastro e, para isso, é necessário o preenchimento de alguns campos com os dados necessários. Além disso, na própria tela inicial existe uma opção de busca de praças, que, quando selecionada, direciona à listagem de praças disponíveis.
 ## 💪 Equipe
 
 - Bryan Santos Sousa 338888
