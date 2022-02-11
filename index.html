@@ -18,7 +18,7 @@
 
     <script>
       $(function () {
-        $("#header").load("frontend/html/header.html");
+        $("#header").load("header-index.html");
       });
     </script>
 
@@ -47,9 +47,9 @@
           <h3>Verificar</h3>
           <div class="consultar-form">
             <label for="email">Informe o endereço de email</label>
-            <input type="email" class="box" /><br/>
+            <input type="email" class="box" required name="email"/><br/>
             <label for="password">Informe sua senha</label>
-            <input type="password" class="box" />
+            <input type="password" class="box" required name="password"/>
             <h5>A senha de acesso é o CPF/CNPJ do beneficiado</h5>
           </div>
           <input
@@ -57,7 +57,7 @@
               value="Iniciar"
               class="bttn-cadastro"
               onclick="window.location.href = 'frontend/html/consultar.html'"
-          /></a>
+          />
         </form>
       </div>
     </div>
