@@ -1,5 +1,4 @@
  article {
-     background-color: white;
      padding: 6%;
      font-family: "Roboto", sans-serif;
      height: 100vh;
@@ -23,6 +22,7 @@
      align-items: flex-start;
      width: 40vw;
      height: 40vh;
+    text-shadow: 2px 2px 2px #7272721c;
  }
  
  .lista ul {
@@ -34,6 +34,13 @@
      margin: 1% 0 0 6%;
  }
  
- aside {
-     background-image: url("..src/");
- }
+ .map {
+  background-image: url(../src/mapa-sobral.png);
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.3;
+}
