@@ -7,7 +7,8 @@
 
     <title>Meu Quiosque Minha Vida</title>
 
-    <link rel="stylesheet" href="frontend/styles/index.css" />
+    <link rel="stylesheet" href="frontend/styles/index.css"/>
+
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.js"
@@ -20,10 +21,12 @@
         $("#header").load("frontend/html/header.html");
       });
     </script>
+
   </head>
 
   <body>
     <div id="header"></div>
+
     <div class="content-1">
       <div class="presentation">
         <h1>
@@ -53,7 +56,7 @@
               type="submit"
               value="Iniciar"
               class="bttn-cadastro"
-              onclick="location.href='#content-2'"
+              onclick="window.location.href = 'frontend/html/consultar.html'"
           /></a>
         </form>
       </div>

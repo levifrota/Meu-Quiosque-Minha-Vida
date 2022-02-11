@@ -9,7 +9,7 @@ body {
     color: #8f8f8f;
     overflow-x: hidden;
     overflow-y: hidden;
-    background-color: white;
+    background: white !important;
 }
 
 html {
