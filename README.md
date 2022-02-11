@@ -26,6 +26,7 @@ O projeto consiste em uma aplicação WEB voltada para o cadastro destes trabalh
 - 20% Para pessoas de baixa renda que querem empreender.
 - 20% Para empresários
 
+O Relatório do projeto se encontra [aqui](./docs/Relatório.pdf)
 ## 💡 Planejamento
 
 O planejamento do projeto foi feito principalmente através do uso do Whatsapp e também por meio de reuniões no meet, onde foram discutidas possíveis ideias para o projeto, foi feito um Brain Storm, onde foram apresentadas várias ideias e depois de uma breve discussão, foi decidido fazer um projeto com o objetivo de ajudar os comerciantes que tiveram sues comércios fechados em decorrência da pandemia, criando uma aplicação para o cadastro dos mesmos.
