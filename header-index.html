@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="../styles/header.css">
+<link rel="stylesheet" href="frontend/styles/index.css">
 <script src="https://kit.fontawesome.com/ce70dff995.js" crossorigin="anonymous"></script>
 <div class="header">
     <img class="logo-quiosque-nav" src="frontend/src/NLB.png" />
@@ -17,11 +17,12 @@
 
     <form action="" class="login-form">
         <h3>Fazer login</h3>
-        <input type="email" placeholder="seu email" class="box" />
-        <input type="password" placeholder="sua senha" class="box" />
-        <p>esqueceu sua senha? <a href="#">clique aqui</a></p>
-        <p>ainda não tem uma conta? <a href="#">crie agora</a></p>
-        <input type="submit" value="Entrar" class="bttn" />
+        <input type="email" placeholder="seu email" class="box" id="email" required name="email" onclick="bordas()"/>
+        <input type="password" placeholder="sua senha" class="box" id="password" required name="password" onclick="bordas()"/>
+        
+        <p>ainda não tem uma conta? <a href="frontend/html/cadastro.html" target="_blank">crie agora</a></p>
+        <a class="bttn" onclick="consultar()">Entrar</a>
     </form>
 </div>
 <script type="text/javascript" src="frontend/js/header.js"></script>
+<script type="text/javascript" src="frontend/js/consultar-home.js"></script>
